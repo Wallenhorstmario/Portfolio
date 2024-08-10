@@ -1,0 +1,224 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.header{
+    background-color: darkcyan;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.header h1{
+    color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+.header p{
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+/*platzhalter*/
+.platzhalter{
+    flex-direction: column;
+    display: flex;
+    height: auto;
+    align-items: center;
+}
+
+/*Dieser Code ist leider noch wild, da ich sehr wenig Zeit gehabt habe, um hier etwas Sauberer zu Arbeiten, im nächsten UpDate werde ich den Code 
+semantischer und sauberer Gestalten!
+Next UpDate: 16.08.2024
+*/
+
+
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 10px;
+}
+nav a{
+    padding: 10px 15px;
+    background-color: rgb(227, 113, 6);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 22px;
+}
+nav a:hover{
+    background-color: rgb(255, 0, 200);
+    transition: 600ms;
+}
+.platzhalter img{
+    border-radius: 200px;
+    border: 3px solid #0cdfb8;
+    margin: 20px 0px;
+    transition: 1s ease;
+    cursor: pointer;
+}
+.platzhalter img:hover{
+    transform: scale(1.1);
+    border: 3px solid #464466;
+}
+/*main content*/
+.main{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 30vh;
+}
+.h2{
+    width: 50%;
+    justify-content: center;
+    display:flex;
+    padding: 10px;
+    align-items: center;
+}
+.p{   
+    width: 50%;
+    padding: 10px;
+    padding: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+.hr{
+    margin: 20px 0px;
+    height: 15px;
+    width: auto;
+    background-color: blanchedalmond;
+}
+.h3{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+
+.sec2{
+    width: 100%;
+  height: 100%;
+}
+
+
+.img{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.img img{
+    border-radius: 200px;
+    transition: 1s ease;
+    cursor: pointer;
+}
+.img img:hover{
+    transform: scale(1.1);
+    border: 3px solid #464466;
+}
+@media only screen and (max-width: 600px) {
+  .img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+  .p , p {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .h2 {
+    margin: 0px;
+  }
+}
+
+
+.hr2{
+    margin: 20px 0px;
+    height: 15px;
+    width: auto;
+    background-color: cadetblue;}
+
+
+
+
+.titel1 h3{
+    padding: 10px;
+    margin-right: 20px;
+}
+
+
+
+.counter{
+    display: flex;
+    width: 100%;
+    height: 50vh;
+}
+.h4{
+    justify-content: center;
+    display:flex;
+    padding: 20px;    
+    align-items: center;
+    width: 50%;
+    font-family: sans-serif;
+
+}
+.p1{   
+   width: 50%;
+   padding:20px;
+   justify-content: center;
+   display: flex;
+   align-items: center;
+   font-family: sans-serif ;
+   text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .counter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .h4{
+    margin-left: 0px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .img img {
+    width: 100px;
+    height: 100px;
+  }
+}
