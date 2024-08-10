@@ -1,2 +1,5 @@
 # Portfolio
-Beta 1.0 Meine Programmiermethode? Hab eine andere Versucht, die viele in Finnland vorkommt.  Ein wilder Ritt! Vielleicht gibt es Paradoxien im Code, die werden behoben! Diese Beta-Version ist ein ungeschliffener Diamant, der noch poliert werden muss. MfG Mario Wallenhorst!
+Beschreibung: Tief in den digitalen Wäldern meiner Beta 1-Website aus HTML und CSS lauert ein Geheimnis. Statt mich in den Wirrwarr komplexer Funktionen zu verstricken, habe ich mich auf Klarheit und Einfachheit konzentriert. Die Website ist über GitHub Pages zugänglich – ein Portal, das Code zum Leben erweckt.
+Meine Programmiermethode?(hab eine andere Versucht, die viele in  Finnland vorkommt.  Ein wilder Ritt! Vielleicht gibt es Paradoxien im Code, wie verborgene Pfade in einem Labyrinth. Aber das ist der Reiz. Diese Beta-Version ist ein ungeschliffener Diamant, der noch poliert werden muss. Ab dem 16.08.2024 werde ich mich mit Zauberstab und Tastatur bewaffnen, um den Code zu optimieren und ihm eine “semantische” Struktur zu verleihen. Meine Zeit ist knapp – #Beruflich! – aber ich lade euch ein, Teil dieser digitalen Quest zu sein. Hinterlasst einen Kommentar, und vielleicht entdecken wir gemeinsam das Unbekannte.
+
+Diese Webseite soll unter der freien Lizenz MIT laufen! Also nutzt den Grundstein für eure Webseite!
